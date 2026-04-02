@@ -18,9 +18,10 @@ span.undefined { color:red; }
 .legend { margin-bottom: 24px; text-align: center; width: 100%;}
 table.display thead th { padding: 3px 18px 3px 10px; border-bottom: 1px solid black; border-top: 1px solid black; font-weight: bold; cursor: pointer; cursor: hand; }
 table.display tfoot th { padding: 3px 10px; border-top: 1px solid black; font-weight: bold; }
-table.display td { padding: 3px 10px; }
+table.display td { padding: 5px 15px; }
 table.display td.center { text-align: center; }
-table.display { margin-top: 24px; }
+table.display { margin-top: 24px; margin-bottom: 20px; }
+.bib-entry { line-height: 1.5; margin-bottom: 10px; }
 .sorting_asc { background: url('lib/images/sort_asc.png') no-repeat center right; }
 .sorting_desc { background: url('lib/images/sort_desc.png') no-repeat center right; }
 .sorting { background: url('lib/images/sort_both.png') no-repeat center right; }
@@ -33,3 +34,93 @@ div.bibinfo { width: 80%; position: fixed; top: 100px; left: 10%; background-col
 #shutter { background-color: #555; opacity: 0.7; width:100%; height: 100%; position: fixed; top: 0; left:0; z-index: 20;}
 a.bibclose { background-color: #BBBBBB; border: 3px solid #FFFFFF; color: black; float: left; font-size: 20px; height: 20px; left: -25px; line-height: 20px; padding: 3px; position: relative; text-align: center; text-decoration: none; top: -25px; width: 20px; -moz-border-radius:15px; -webkit-border-radius:15px; -o-border-radius:15px; border-radius:15px; }
 div.bibinfo pre { clear:both; }
+
+/* Estilos para la tabla de comparación */
+.comparison-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+  background: white;
+  border: 1px solid #dee2e6;
+}
+
+.comparison-table thead th {
+  background-color: #f8f9fa;
+  color: #495057;
+  font-weight: 600;
+  text-align: left;
+  padding: 12px 15px;
+  border-bottom: 2px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+}
+
+.comparison-table thead th:last-child {
+  border-right: none;
+}
+
+.comparison-table tbody td {
+  padding: 10px 15px;
+  border-bottom: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  vertical-align: top;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.comparison-table tbody td:last-child {
+  border-right: none;
+}
+
+.comparison-table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.comparison-table tbody td.text-center {
+  text-align: center;
+  font-weight: 500;
+}
+
+.comparison-table .author-col {
+  min-width: 140px;
+  font-weight: 600;
+}
+
+.comparison-table .contaminants-col {
+  min-width: 120px;
+}
+
+.comparison-table .data-col {
+  min-width: 180px;
+}
+
+.comparison-table .stations-col,
+.comparison-table .period-col,
+.comparison-table .window-col {
+  min-width: 80px;
+  text-align: center;
+}
+
+.comparison-table .models-col {
+  min-width: 120px;
+  font-weight: 500;
+}
+
+.comparison-table cite {
+  font-style: italic;
+  color: #6c757d;
+}
+
+.table-caption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-top: 15px;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.table-responsive {
+  margin: 30px 0;
+}

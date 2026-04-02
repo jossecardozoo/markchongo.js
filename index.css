@@ -114,3 +114,896 @@ body.error404 .main-container {
 .big-font{
 	font-size: 2em;
 }
+
+.main-container {
+	text-align: justify;
+}
+
+.main-container table:not(.comparison-table):not(.thesis-table__table) {
+    width: 100%;
+    margin: 28px 0 10px;
+    border-collapse: collapse;
+    border-top: 2px solid #4c5664;
+    border-bottom: 2px solid #4c5664;
+    font-size: 0.95em;
+    line-height: 1.5;
+    font-variant-numeric: tabular-nums;
+    background: #fff;
+}
+
+.main-container table:not(.comparison-table):not(.thesis-table__table) thead tr {
+    border-bottom: 1.5px solid #7f8a99;
+}
+
+.main-container table:not(.comparison-table):not(.thesis-table__table) tbody tr {
+    border-bottom: 1px solid #e3e8ee;
+}
+
+.main-container table:not(.comparison-table):not(.thesis-table__table) tbody tr:last-child {
+    border-bottom: none;
+}
+
+.main-container table:not(.comparison-table):not(.thesis-table__table) th,
+.main-container table:not(.comparison-table):not(.thesis-table__table) td {
+    padding: 10px 14px;
+    border: none;
+    vertical-align: top;
+}
+
+.main-container table:not(.comparison-table):not(.thesis-table__table) th {
+    text-align: left;
+    font-weight: 700;
+    color: #2f3e4f;
+}
+
+.main-container table:not(.comparison-table):not(.thesis-table__table) td {
+    color: #44505c;
+}
+
+.main-container table:not(.comparison-table):not(.thesis-table__table) th:not(:first-child),
+.main-container table:not(.comparison-table):not(.thesis-table__table) td:not(:first-child) {
+    text-align: center;
+}
+
+.main-container table:not(.comparison-table) + p em {
+    display: block;
+    margin-top: 6px;
+    font-size: 0.92em;
+    color: #6b7280;
+    text-align: center;
+}
+
+.main-container .thesis-table {
+    width: 100%;
+    max-width: 1120px;
+    margin: 24px auto 22px;
+    overflow-x: auto;
+}
+
+.main-container .thesis-table .thesis-table__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border-top: 3px solid #22313f;
+    border-bottom: 2px solid #22313f;
+    background: transparent;
+    font-size: 0.9em;
+    line-height: 1.3;
+    font-variant-numeric: tabular-nums;
+}
+
+.main-container .thesis-table .thesis-table__table thead tr.header-row {
+    border-bottom: 2px solid #22313f;
+}
+
+.main-container .thesis-table .thesis-table__table thead tr.group-row th {
+    padding-top: 6px;
+    padding-bottom: 4px;
+    text-align: center;
+    font-size: 0.98em;
+    font-style: italic;
+    font-weight: 600;
+    color: #31455a;
+}
+
+.main-container .thesis-table .thesis-table__table thead tr.group-row th.group-head {
+    border-bottom: 2px solid #22313f;
+}
+
+.main-container .thesis-table .thesis-table__table thead tr.group-row th[rowspan] {
+    font-style: normal;
+    border-bottom: none;
+}
+
+.main-container .thesis-table .thesis-table__table tbody tr {
+    border-bottom: 1.5px solid #22313f;
+}
+
+.main-container .thesis-table .thesis-table__table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.main-container .thesis-table .thesis-table__table th,
+.main-container .thesis-table .thesis-table__table td {
+    padding: 7px 12px;
+    border: none;
+    color: #31455a;
+}
+
+.main-container .thesis-table .thesis-table__table th {
+    text-align: center;
+    font-weight: 700;
+}
+
+.main-container .thesis-table .thesis-table__table td {
+    text-align: center;
+}
+
+.main-container .thesis-table .thesis-table__table td:first-child {
+    text-align: left;
+    white-space: normal;
+}
+
+.main-container .thesis-table figcaption {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 0.92em;
+    color: #31455a;
+}
+
+.main-container .table-ref a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(49, 69, 90, 0.25);
+}
+
+.main-container .table-ref a:hover {
+    border-bottom-color: rgba(49, 69, 90, 0.65);
+}
+
+.main-container .heading-number {
+    color: #31455a;
+    font-weight: 700;
+    margin-right: 0.2em;
+}
+
+.main-container p.figure-caption {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.main-container p.figure-caption em {
+    color: #31455a;
+    font-style: italic;
+}
+
+.main-container .appendix-image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+    margin: 16px 0 8px;
+}
+
+.main-container .appendix-image-row img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.main-container .math-block {
+    margin: 22px auto 24px;
+    padding: 10px 0;
+    text-align: center;
+    font-family: "Cambria Math", "STIX Two Math", "Times New Roman", serif;
+    font-size: 1.34em;
+    line-height: 1.7;
+    color: #24384d;
+    background: transparent;
+    border: none;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.main-container .math-block .math-symbol {
+    font-style: italic;
+}
+
+.main-container .math-block .math-operator,
+.main-container .math-block .math-punct,
+.main-container .math-block .math-paren,
+.main-container .math-block .math-bracket {
+    font-style: normal;
+    padding: 0 0.08em;
+}
+
+.main-container .math-block .math-frac {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    margin: 0 0.12em;
+}
+
+.main-container .math-block .math-frac-top,
+.main-container .math-block .math-frac-bottom {
+    display: block;
+    padding: 0 0.18em;
+    white-space: nowrap;
+}
+
+.main-container .math-block .math-frac-bar {
+    width: 100%;
+    border-top: 1.5px solid currentColor;
+    margin: 0.08em 0 0.12em;
+}
+
+.main-container .math-block sub,
+.main-container .math-block sup {
+    font-size: 0.72em;
+    line-height: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .main-container .appendix-image-row {
+        gap: 12px;
+    }
+
+    .main-container .appendix-image-row img {
+        width: min(100%, 280px);
+    }
+
+    .main-container .math-block {
+        font-size: 1.08em;
+        line-height: 1.55;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-container .thesis-table .thesis-table__table {
+        min-width: 680px;
+    }
+}
+
+/* ===== BIBTEX FINAL CLEAN ===== */
+
+#references-root {
+    margin-top: 18px;
+}
+
+.references-page {
+    text-align: left;
+}
+
+.references-type-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0 22px;
+}
+
+.references-pill,
+.reference-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    border: 1px solid #d9d9d9;
+    border-radius: 999px;
+    background: #fff;
+    font-size: 14px;
+}
+
+.references-type-dot,
+.reference-pill .pub {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.references-pill-total,
+.reference-pill-total {
+    background: #f5f7fb;
+    border-color: #cad4e4;
+}
+
+.references-pill-label,
+.reference-pill-label {
+    color: #5a6570;
+}
+
+.references-pill-count,
+.reference-pill-count {
+    font-size: 15px;
+}
+
+.references-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0 22px;
+}
+
+.references-toolbar {
+    margin-bottom: 18px;
+}
+
+.references-controls {
+    margin-bottom: 18px;
+}
+
+.references-search-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #495057;
+}
+
+.references-search-input {
+    width: 100%;
+    max-width: 420px;
+    padding: 7px 10px;
+    border: 1px solid #cfd6de;
+    border-radius: 6px;
+}
+
+.references-results-count {
+    padding-top: 8px;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.references-status {
+    padding-top: 8px;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.references-loading,
+.references-empty {
+    padding: 14px 16px;
+    margin-top: 12px;
+    border: 1px solid #d9e2ec;
+    border-radius: 6px;
+    background: #f8fafc;
+    color: #52606d;
+}
+
+.references-table-wrap {
+    overflow-x: auto;
+}
+
+.references-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.references-table tr {
+    border-bottom: 2px solid #d0d0d0;
+}
+
+.references-table tr:first-child {
+    border-top: 2px solid #d0d0d0;
+}
+
+.references-table tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.references-table tbody tr:hover {
+    background-color: #f3f3f3;
+}
+
+.references-table td {
+    padding: 14px 12px;
+    vertical-align: top;
+}
+
+.references-table th {
+    text-align: center;
+    font-weight: 600;
+    padding: 12px;
+}
+
+.references-col-year {
+    font-weight: bold;
+    width: 80px;
+    white-space: nowrap;
+}
+
+.references-col-type {
+    color: #777;
+    width: 130px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.references-col-entry {
+    line-height: 1.7;
+}
+
+.references-list-wrap {
+    margin-top: 18px;
+}
+
+.references-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.references-card {
+    display: grid;
+    grid-template-columns: 120px minmax(0, 1fr);
+    gap: 18px;
+    padding: 18px 18px 16px;
+    border: 1px solid #dbe3ea;
+    border-radius: 12px;
+    background: linear-gradient(180deg, #ffffff 0%, #fbfcfe 100%);
+    box-shadow: 0 6px 18px rgba(36, 56, 77, 0.05);
+}
+
+.references-card-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.references-card-year {
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 700;
+    color: #24384d;
+    letter-spacing: -0.02em;
+}
+
+.references-card-type {
+    font-size: 0.92rem;
+}
+
+.references-card-body {
+    min-width: 0;
+}
+
+#bibtex-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* líneas tipo tabla */
+#bibtex-container tr {
+    border-bottom: 2px solid #d0d0d0;
+}
+
+/* línea superior */
+#bibtex-container tr:first-child {
+    border-top: 2px solid #d0d0d0;
+}
+
+/* zebra */
+#bibtex-container tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* hover */
+#bibtex-container tr:hover {
+    background-color: #f3f3f3;
+}
+
+/* celdas */
+#bibtex-container td {
+    padding: 14px 12px;
+    vertical-align: top;
+}
+
+#bibtex-container table.display td:first-child {
+    font-weight: bold;
+    width: 80px;
+    white-space: nowrap;
+}
+
+#bibtex-container table.display td:nth-child(2) {
+    color: #777;
+    width: 130px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* texto */
+#bibtex-container table.display td:last-child {
+    line-height: 1.7;
+}
+
+.reference-type-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+}
+
+.references-type-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+}
+
+.reference-authors {
+    color: #4b5563;
+    margin-bottom: 4px;
+}
+
+.references-item-authors {
+    color: #4b5563;
+    margin-bottom: 5px;
+    font-size: 0.96rem;
+}
+
+.reference-title {
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 4px;
+}
+
+.references-item-title {
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 6px;
+    font-size: 1.02rem;
+    line-height: 1.45;
+}
+
+.reference-source,
+.reference-note,
+.reference-links {
+    color: #4b5563;
+    margin-bottom: 3px;
+}
+
+.references-item-source,
+.references-item-note,
+.references-item-links {
+    color: #4b5563;
+    margin-bottom: 4px;
+    line-height: 1.6;
+}
+
+.reference-links a {
+    font-weight: 600;
+}
+
+.references-item-links a {
+    font-weight: 600;
+    color: #2f5d89;
+}
+
+.reference-link-separator {
+    color: #9ca3af;
+}
+
+.references-link-separator {
+    color: #9ca3af;
+}
+
+.references-page-static {
+    text-align: left;
+}
+
+.references-summary-static {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 10px 0 20px;
+    align-items: center;
+}
+
+.references-summary-static .references-pill {
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 8px 16px;
+    border: 1.5px solid #c8d1db;
+    border-radius: 3px;
+    background: #ffffff;
+    font-size: 0.98rem;
+    box-shadow: none;
+    line-height: 1;
+}
+
+.references-summary-static .references-pill-total {
+    background: #f3f4f6;
+    gap: 10px;
+}
+
+.references-summary-static .references-pill-label {
+    color: #334155;
+    font-size: 0.96rem;
+}
+
+.references-summary-static .references-pill-count {
+    font-size: 0.96rem;
+    font-weight: 700;
+}
+
+.references-summary-static .references-type-dot {
+    width: 15px;
+    height: 15px;
+    border-width: 1.5px;
+}
+
+.references-table-static {
+    margin-top: 8px;
+    border-top: 2px solid #111827;
+    border-bottom: 2px solid #111827;
+}
+
+.references-table-static tr:first-child {
+    border-top: none;
+}
+
+.references-table-static thead tr {
+    border-bottom: 2px solid #111827;
+}
+
+.references-table-static thead th {
+    padding: 12px 14px 11px;
+    font-size: 1.24rem;
+    text-align: left;
+    color: #24384d;
+    font-weight: 700;
+}
+
+.references-table-static tbody tr {
+    border-bottom: 2px solid #111827;
+}
+
+.references-table-static tbody tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+.references-table-static tbody tr:hover {
+    background-color: inherit;
+}
+
+.references-table-static td {
+    padding: 14px 14px 13px;
+    font-size: 1.18rem;
+    vertical-align: middle;
+}
+
+.references-table-static .references-col-year {
+    width: 120px;
+    font-weight: 600;
+    color: #24384d;
+    font-size: 1.22rem;
+}
+
+.references-table-static .references-col-type {
+    width: 180px;
+    color: #24384d;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.references-type-chip-static {
+    gap: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.references-type-chip-static .references-type-dot {
+    display: none;
+}
+
+.references-table-static .references-item-authors {
+    margin-bottom: 4px;
+    color: #334155;
+    font-size: 1.28rem;
+    text-align: center;
+}
+
+.references-table-static .references-item-title {
+    margin-bottom: 5px;
+    color: #1f2937;
+    font-size: 1.32rem;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.references-table-static .references-item-source {
+    margin-bottom: 4px;
+    color: #4b5563;
+    font-style: italic;
+    font-size: 1.24rem;
+    text-align: center;
+}
+
+.references-table-static .references-item-links {
+    font-size: 1.18rem;
+    text-align: center;
+}
+
+.references-table-static .references-item-links a {
+    color: #14b8a6;
+    text-decoration: underline;
+}
+
+.references-table-static .references-link-separator {
+    color: #64748b;
+}
+
+/* headers */
+#bibtex-container th {
+    text-align: center;
+    font-weight: 600;
+}
+
+/* search spacing */
+#bibtex-container .bibtex_search {
+    margin-bottom: 25px;
+}
+
+/* links */
+#bibtex-container a {
+    color: #2a6db0;
+    text-decoration: none;
+}
+
+#bibtex-container a:hover {
+    text-decoration: underline;
+}
+
+/* Diagrama de arquitectura de modelo en markdown */
+.model-diagram {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    padding: 14px;
+    margin: 16px 0;
+}
+.model-diagram strong {
+    display: block;
+    margin-bottom: 8px;
+    color: #2a6db0;
+}
+.model-diagram .step {
+    margin-left: 12px;
+    margin-bottom: 6px;
+    padding-left: 8px;
+    border-left: 2px solid #6c757d;
+    color: #333;
+}
+
+.model-diagram.bubble {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    padding: 16px;
+    border: 1px solid #cfd8df;
+    border-radius: 10px;
+    background-color: #f5f7f9;
+}
+
+.model-diagram.bubble .node {
+    min-width: 120px;
+    padding: 10px 12px;
+    border-radius: 999px;
+    background: #ffffff;
+    border: 1px solid #d1d9e0;
+    text-align: center;
+    font-weight: 600;
+    color: #1f2a37;
+    box-shadow: 0 2px 5px rgba(18, 31, 45, 0.08);
+}
+
+.model-diagram.bubble .node span {
+    display: block;
+    font-size: 0.8rem;
+    color: #556573;
+    margin-top: 4px;
+    font-weight: 400;
+}
+
+.model-diagram.bubble .arrow {
+    font-size: 1.2rem;
+    color: #6f7f8b;
+    font-weight: 700;
+    margin: 0 2px;
+}
+
+.model-diagram.architecture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    max-width: 520px;
+    margin: 24px auto 10px;
+    padding: 8px 0;
+    border: none;
+    background: transparent;
+}
+
+.model-diagram.architecture .diagram-node {
+    width: 100%;
+    max-width: 430px;
+    padding: 10px 16px;
+    border: 1.5px solid #3b4752;
+    border-radius: 4px;
+    background: #fcfcfa;
+    text-align: center;
+    color: #24384d;
+    box-shadow: none;
+}
+
+.model-diagram.architecture .diagram-node strong {
+    display: block;
+    margin-bottom: 3px;
+    color: #24384d;
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 0.98em;
+    font-weight: 700;
+}
+
+.model-diagram.architecture .diagram-node span {
+    display: block;
+    font-size: 0.9em;
+    line-height: 1.35;
+    color: #465664;
+}
+
+.model-diagram.architecture .diagram-arrow {
+    font-size: 1.1rem;
+    line-height: 1;
+    color: #3b4752;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+    .references-type-summary {
+        gap: 8px;
+    }
+
+    .references-summary {
+        gap: 8px;
+    }
+
+    .references-pill,
+    .reference-pill {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .references-search-input {
+        max-width: none;
+    }
+
+    .references-card {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        padding: 16px 14px;
+    }
+
+    .references-card-meta {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    .references-card-year {
+        font-size: 1.25rem;
+    }
+}

@@ -93,6 +93,11 @@ function loadMainMarkdown(filename) {
                 } else {
                     $( "#bibtex-container" ).hide();
                     $( ".main-container" ).html(toHtml(markup));
+                    $( ".main-container" ).attr("data-page-key", filename);
+
+                    if (window.enhanceStructuredContent) {
+                        window.enhanceStructuredContent();
+                    }
                 }
                 $( "body" ).removeClass("error404");
                 setCurrentPageActiveStyle();
